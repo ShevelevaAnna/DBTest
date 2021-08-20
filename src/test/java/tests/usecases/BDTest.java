@@ -18,6 +18,10 @@ public class BDTest {
      * Вывести: Maker
      * 4)Для каждого значения скорости ПК, превышающего 600 МГц, определите среднюю цену ПК с такой же скоростью.
      * Вывести: speed, средняя цена.
+     *
+     *
+     *
+     * 
      */
     @Test (dataProvider = "SQLTestData", dataProviderClass = ParametersForTest.class)
     private void test(String url, String username, String password) throws SQLException {
